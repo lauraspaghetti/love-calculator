@@ -23,5 +23,5 @@ Légende :
 
 ## Améliorations
 
-1. Mettre du son lors de l'annonce du résultats  
+1. Uploader du son lors de l'annonce du résultats  
 2. Gérer toutes les langues (regarder du côté des API)  
