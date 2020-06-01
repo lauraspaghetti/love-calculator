@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/love_calculator.css">
+    <title>Love Calculator</title>
+</head>
+<body>
+    <header>
+        <h1 class="col">Love Calculator</h1>
+    </header>
+    <main class="container">
+        <section>
+            <div id="presentation" class="col-sm-12">
+                <p>Are you compatible with your crush ? Check it out right now !</p>
+            </div>
+        </section>
+        <section class="container">
+            <form id='lovers-form' class="row">
+                <!-- <img src="assets/img/yellow-circle.png" alt="divination circle"> -->
+                <div class='col-12'>
+                    <div class="row">
+                        <input class="form-control-sm" type='text' id='name1' name='name1' placeholder='Your name' value=''>
+                        <input class="form-control-sm" type='text' id='name2' name='name2' placeholder="Your soulmate's name" value=''>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type='submit' class='love-btn' id='submit' onClick="retrieve()">Let's go !</button>
+                </div>
+            </form>
+        </section>
+        <section class="container">
+            <div id="love-result" class="row">
+                <div class="heart-shape hidden">
+                    <p id="compatibility"></p>
+                </div>
+                <div class="col-12">
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <div class="col-12">
+                    <button id='start-again' class="love-btn hidden">Start again</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Powered by lauraspaghetti 🌺</p>
+    </footer>
+
+    <script src='script.js'></script>
+    
+</body>
+</html>
