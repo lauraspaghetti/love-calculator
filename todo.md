@@ -1,6 +1,6 @@
 # Travail en cours
 
-Légende :
+Légende :  
 
 - 🚀  En cours
 - ✅  Terminé
