@@ -1,27 +1,26 @@
-# Travail en cours
+# Work in progress
 
-Légende :  
+- 🚀  in progress
+- ✅  done
 
-- 🚀  En cours
-- ✅  Terminé
+## Organization
 
-## Organisation
-
-1. Mettre toutes les fonctions dans fichier un functions.js  
+1. Put the calculating functions in a functions.js file to clean and simplify the main script ✅  
 
 ## Style  
 
-1. Ajouter un hover et un active sur les btn  
-2. Gérer la version mobile (responsive)  
-3. Ajouter une favicon  
-4. Personnaliser le curseur  
+1. Add a active and hover effect on btns  
+2. Make it responsive  
+3. Add a favicon  
+4. Custom the cursor  
 
 ## Bugs  
 
-1. Mettre des validations au formulaire  
-2. Récupérer la saisie de l'utilisateur avant de la transformer  
+1. Get rid of the horizontal scrollbar 🚀  
+2. Add validations for the form  
+3. Get user's input before changing it  
 
-## Améliorations
+## Upgrades
 
-1. Uploader du son lors de l'annonce du résultats  
-2. Gérer toutes les langues (regarder du côté des API)  
+1. Upload sound when the result is displayed  
+2. Manage multiple languages (leads : API)  
