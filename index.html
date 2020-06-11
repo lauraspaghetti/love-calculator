@@ -11,17 +11,16 @@
 </head>
 <body>
     <header>
-        <h1 class="col">Love Calculator</h1>
+        <div class="container">
+            <h1>Love Calculator</h1>
+            <div class="container-md">
+                <h3>Are you compatible with your crush ? Check it out right now !</h3>
+            </div>
+        </div>
     </header>
     <main class="container">
-        <section>
-            <div id="presentation" class="col-sm-12">
-                <p>Are you compatible with your crush ? Check it out right now !</p>
-            </div>
-        </section>
         <section class="container">
             <form id='lovers-form' class="row">
-                <!-- <img src="assets/img/yellow-circle.png" alt="divination circle"> -->
                 <div class='col-12'>
                     <div class="row">
                         <input class="form-control-sm" type='text' id='name1' name='name1' placeholder='Your name' value=''>
@@ -41,7 +40,9 @@
                 <div class="col-12">
                     <figure>
                         <img src="" alt="">
-                        <figcaption></figcaption>
+                        <div class="container-md">
+                            <figcaption></figcaption>
+                        </div>
                     </figure>
                 </div>
                 <div class="col-12">
@@ -50,13 +51,10 @@
             </div>
         </section>
     </main>
-    <footer>
-        <p>Powered by lauraspaghetti 🌺</p>
+    <footer class="container-fluid bg-light">
+        <p>Powered by <a href="https://github.com/lauraspaghetti">lauraspaghetti</a>🍝</p>
     </footer>
-
-    <script src='main.js'></script>
-    <script src='functions.js'></script>
-
-    
 </body>
+<script src='main.js'></script>
+<script src='functions.js'></script>
 </html>
