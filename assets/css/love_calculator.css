@@ -101,8 +101,8 @@ header h3{
     background-image                : url("../img/yellow-circle.png");
     background-position             : center;
     background-repeat               : no-repeat;
-    background-size                 : 450px;
-    height                          : 450px;
+    background-size                 : contain;
+    min-height                      : 450px;
     align-items                     : center;
 }
 
@@ -114,7 +114,7 @@ header h3{
     min-width                       : 200px;
     margin-top                      : 2rem; 
     height                          : auto;
-    margin-top                      : 155px; 
+    margin-top                      : 13%; 
     text-align                      : center; 
 }
 
@@ -223,6 +223,7 @@ figcaption{
 footer{
     text-align                      : center;
     letter-spacing                  : 0.2rem;
+    margin-top                      : 80px;
 }
 
 
