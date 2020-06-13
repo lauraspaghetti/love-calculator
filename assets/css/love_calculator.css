@@ -12,6 +12,7 @@ html, body, p{
     padding                         : 0;
     height                          : 100%;
     font-size                       : 1.5rem;
+    text-align: center;
 }
 
 body{
@@ -53,10 +54,10 @@ a:hover{
 
 h1{
     font-family                     : 'Archivo', sans-serif;
-    font-size                       : 4rem; 
     font-style                      : italic;
     font-weight                     : 700;
     color                           : mintcream;
+    /* font-size                       : clamp(16px, 4vw, 22px); */
 }
 
 h3, p, figcaption{
@@ -103,6 +104,14 @@ header h3{
     background-size                 : contain;
     min-height                      : 450px;
     align-items                     : center;
+}
+
+@media screen and (max-width: 760px) {
+
+    #lovers-form{
+        align-items                 : flex-end;
+    }
+    
 }
 
 #lovers-form input{
@@ -231,8 +240,13 @@ figcaption{
 footer{
     text-align                      : center;
     letter-spacing                  : 0.2rem;
-    margin-top                      : 80px;
 }
+
+
+
+
+
+
 
 
 
