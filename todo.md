@@ -11,8 +11,8 @@
 
 1. Harmonize margins/paddings 🚀
 2. Add a active and hover effect on btns  
-3. Make it responsive  
-4. Add a favicon  
+3. Make it responsive ✅  
+4. Add a favicon ✅  
 5. Custom the cursor  
 
 ## Bugs  
