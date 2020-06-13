@@ -9,16 +9,17 @@
 
 ## Style  
 
-1. Harmonize margins/paddings 🚀
-2. Add a active and hover effect on btns  
-3. Make it responsive ✅  
+1. Harmonize margins/paddings ✅  
+2. Make it responsive ✅  
+3. Add a active and hover effect on btns 🚀  
 4. Add a favicon ✅  
-5. Custom the cursor  
+5. Style form validation message
+6. Custom the cursor  
 
 ## Bugs  
 
 1. Get rid of the horizontal scrollbar ✅
-2. Add validations for the form  
+2. Add validations for the form ✅  
 3. Get user's input before changing it  
 
 ## Upgrades
