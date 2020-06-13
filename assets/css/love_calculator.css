@@ -45,8 +45,6 @@ a:hover{
     display                         : none;
 }
 
-
-
 /********************************************
 ******************* TYPOS *******************
 *********************************************/
@@ -64,6 +62,7 @@ h1{
 h3, p, figcaption{
     font-family                     : 'Archivo', sans-serif;
     font-size                       : 1.2rem;
+    font-weight                     : 100;
 }
 
 button{
@@ -76,7 +75,7 @@ button{
 *********************************************/
 
 header{
-    margin-bottom                   : 2.8rem;
+    margin-bottom                   : 4rem;
 }
 
 header div:nth-of-type(1){
@@ -84,7 +83,7 @@ header div:nth-of-type(1){
 }
 
 header h3{
-    background-color                : mintcream;
+    background-color                : rgba(245, 255, 250, 0.6);
     font-size                       : 1.2rem;
 }
 
@@ -135,10 +134,13 @@ section:nth-of-type(2){
 }
 
 #love-result{
-
     text-align                      : center;
     align-items                     : center;
     justify-content                 : center;
+}
+
+#love-result div:nth-of-type(2){
+    margin-bottom: 1rem;
 }
 
 #compatibility{
@@ -178,7 +180,7 @@ section:nth-of-type(2){
     margin-top                      : 1rem;
     align-self                      : center;
     box-shadow                      : 0 0 5px rgba( 0, 0, 0, 0.2), 0 -1px 1px rgba( 255, 255, 255, 0.6) inset;
-    margin-bottom                   : 30px;
+    margin-bottom                   : 2rem;
 }
 
 
@@ -208,11 +210,17 @@ figure img{
     border-radius                   : 50%;
     max-height                      : 350px;
     max-width                       : 100%;
+    margin-bottom                   : 1rem;
 }
 
 figcaption{
     font-size                       : 1rem;
-    background-color                : rgba(245, 255, 250, 0.393);
+    background-color                : rgba(245, 255, 250, 0.5);
+    letter-spacing                  : 0.7px;
+}
+
+#start-again{
+    margin-bottom                   : 2rem;
 }
 
 
