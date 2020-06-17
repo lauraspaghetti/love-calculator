@@ -133,19 +133,19 @@ function onSubmit(event){
         console.log('100'); 
         gif.src = 'assets/img/sailor-moon-10.gif'; 
         message.innerHTML = "Wow that’s a perfect match ! You should totally go for it, if you have not already done so ! Why not doing a screenshot of your score and send it to your crush ? It’s cringy as hell but when they’ll see that score they’ll fall for you right away."; 
-    }else if(yourCompatibility > 76 && yourCompatibility < 99){
+    }else if(yourCompatibility >= 76 && yourCompatibility <= 99){
         console.log('76 et 99'); 
         gif.src = 'assets/img/sailor-moon-8.gif'; 
         message.innerHTML = "That’s quite a match, you and your s.o. sure belong together ! You seem to get along very well, an harmonious and beautiful relationship will blossom if you give it a go."; 
-    }else if(yourCompatibility > 68 && yourCompatibility < 75){
+    }else if(yourCompatibility >= 68 && yourCompatibility <= 75){
         console.log('67 et 75'); 
         gif.src = 'assets/img/sailor-moon-9.gif'; 
         message.innerHTML = "That’s a good score for sure ! You are compatible with your crush, that’s facts. I know we made your day. You’re welcome."; 
-    }else if( yourCompatibility > 50 && yourCompatibility < 67){
+    }else if( yourCompatibility >= 50 && yourCompatibility <= 67){
         console.log('50 et 67'); 
         gif.src = 'assets/img/sailor-moon-4.gif'; 
         message.innerHTML = "That’s not a perfect score, but it’s not a bad one either. You still have chances to get along well with your crush, and a good relationship it still possible. It won’t be easy but it worth a try. Fighting !"; 
-    }else if(yourCompatibility > 30 && yourCompatibility < 49){
+    }else if(yourCompatibility >= 30 && yourCompatibility <= 49){
         console.log('30 et 49'); 
         gif.src = 'assets/img/sailor-moon-2.gif'; 
         message.innerHTML = "We know. It’s frustrating. But it’s a truth you have to face : you’re not really compatible with your crush. It’s no picnic, but you know what they say : there’s plenty fishes in the see."; 
