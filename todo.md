@@ -13,7 +13,7 @@
 2. Make it responsive ✅  
 3. Add a active and hover effect on btns 🚀  
 4. Add a favicon ✅  
-5. Style form validation message
+5. Style form validation messages
 6. Custom the cursor  
 
 ## Bugs  
@@ -21,6 +21,7 @@
 1. Get rid of the horizontal scrollbar ✅
 2. Add validations for the form ✅  
 3. Get user's input before changing it  
+4. Footer's not responsive (on medium screens) ✅
 
 ## Upgrades
 
