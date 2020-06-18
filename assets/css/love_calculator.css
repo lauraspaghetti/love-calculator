@@ -1,6 +1,6 @@
 
 /********************************************
-************* GENERAL SETTINGS *************
+************* GENERAL SETTINGS **************
 *********************************************/
 
 * {
@@ -252,7 +252,7 @@ footer{
 **************** MEDIA QUERIES **************
 *********************************************/
 
-/* Pour iPads */
+/* For iPads */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     
@@ -266,7 +266,7 @@ footer{
 
 }
 
-/* Pour smarthphone */
+/* For smarthphones */
 
 @media screen and (max-width: 760px) {
 
