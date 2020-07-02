@@ -144,7 +144,7 @@ function onSubmit(event){
     }else if( yourCompatibility >= 50 && yourCompatibility <= 67){
         console.log('50 et 67'); 
         gif.src = 'assets/img/sailor-moon-4.gif'; 
-        message.innerHTML = "That’s not a perfect score, but it’s not a bad one either. You still have chances to get along well with your crush, and a good relationship it still possible. It won’t be easy but it worth a try. Fighting !"; 
+        message.innerHTML = "That’s not a perfect score, but it’s not a bad one either. You still have chances to get along well with your crush, and a good relationship is still possible. It won’t be easy but it worth a try. Fighting !"; 
     }else if(yourCompatibility >= 30 && yourCompatibility <= 49){
         console.log('30 et 49'); 
         gif.src = 'assets/img/sailor-moon-2.gif'; 
