@@ -149,7 +149,7 @@ function onSubmit(event){
         console.log('30 et 49'); 
         gif.src = 'assets/img/sailor-moon-2.gif'; 
         message.innerHTML = "We know. It’s frustrating. But it’s a truth you have to face : you’re not really compatible with your crush. It’s no picnic, but you know what they say : there’s plenty fishes in the see."; 
-    }else if(yourCompatibility === 0 || yourCompatibility > 1 && yourCompatibility < 29){
+    }else if(yourCompatibility === 0 || yourCompatibility > 1 && yourCompatibility <= 29){
         console.log('29 et 0'); 
         gif.src = 'assets/img/sailor-moon-1.gif'; 
         message.innerHTML = "What a tragedy ! You two are defo not meant to be together, not even a chance. But look at the bright side : now you know they’re not for you, you can go back hunting to find the right one. Good luck, you stunner."; 
