@@ -152,7 +152,7 @@ function onSubmit(event){
     }else if(yourCompatibility >= 30 && yourCompatibility <= 49){
         console.log('30 et 49'); 
         gif.src = 'assets/img/sailor-moon-2.gif'; 
-        gif.alt = 'Sailor Mars shoked'; 
+        gif.alt = 'Sailor Mars shocked'; 
         message.innerHTML = "We know. It’s frustrating. But it’s a truth you have to face : you’re not really compatible with your crush. It’s no picnic, but you know what they say : there’s plenty fishes in the see."; 
     }else if(yourCompatibility === 0 || yourCompatibility > 1 && yourCompatibility <= 29){
         console.log('29 et 0'); 
