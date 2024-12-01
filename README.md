@@ -1,2 +1,2 @@
 # love-calculator
-This is a love compatibility calculator between two persons, based on their names.
+This is a love compatibility calculator for two people, based on their names.
